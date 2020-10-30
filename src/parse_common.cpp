@@ -4,8 +4,6 @@
 
 #include "objparse.h"
 
-#pragma GCC visibility push(hidden)
-
 namespace meshparse {
 
 	using std::map;
@@ -44,4 +42,3 @@ namespace meshparse {
 
 } // namespace meshparse
 
-#pragma GCC visibility pop

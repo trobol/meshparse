@@ -9,8 +9,6 @@
 
 #include "parse_common.h"
 
-#pragma GCC visibility push(hidden)
-
 #define _CRT_SECURE_NO_WARNINGS
 
 namespace meshparse {
@@ -122,5 +120,3 @@ namespace meshparse {
 	}
 
 } // namespace meshparse
-
-#pragma GCC visibility pop
